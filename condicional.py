@@ -15,3 +15,6 @@ if __name__ == "__main__":
     print(f'<= 3 | Impar: {prob_A(2, 3)}')
 
     print(f'Impar | <= 3: {prob_A_dado_B(3, 2)}')
+
+    print(f'[(M,M)] | [(M, M), (M, H)]: {prob_A_dado_B(2, 1)}')
+    print(f'[(M,M)] | [(M, M), (M, H), (H, M)]: {prob_A_dado_B(3, 1)}')
