@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 
 def prob_A(A, o):
     return A / o
